@@ -1,0 +1,178 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+.header{
+    background-color: black;
+    border:  4px rgb(207, 10, 181) solid;
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+} 
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+.header button{
+    padding: 30px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    color: black;
+    
+}
+.main {
+    display: flex;
+    background-color: goldenrod;
+    width: 100%;
+    height: 900px;
+    padding: 40px;
+    gap: 40px;
+}
+
+.explore button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 40px;
+    width: 150px;
+}
+span {
+    color:goldenrod;
+}
+
+.main-left p {
+    padding-top: 30px;
+    margin-top: 40px;
+}
+.main-left h1 {
+    font-size: 80px;
+    padding-top: 20px;
+}
+.main-right {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 700px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+
+.main-right h1 {
+    padding: 20px;
+}
+
+.main-right p {
+    padding: 20px;
+}
+.main-right h2 {
+    padding: 20px;
+}
+
+#name {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+
+}
+
+select {
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.final-parent a {
+    display: flex;
+    justify-content: end;
+}
+.final-parent{
+    padding: 40px;
+    
+}
+
+.final-parent p {
+    padding: 20px;
+    
+}
+.country-parent{
+ display: flex;
+ justify-content: space-between;
+padding: 30px;
+width: 350px;
+border-radius: 10px;
+}
+
+.country-parent img {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.country-1{
+    width: 100%
+    
+}
+.header i{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+.header ul {
+    display: none;
+}
+.header button{
+    display: none;
+}
+.header i {
+    display: block;
+    font-size: 260px;
+    background-color: rgb(42, 37, 37);
+}
+.main {
+    flex-direction: column;
+    width: 350px;
+    height: 1700px;
+}
+.main-left p {
+    width: 350px;
+}
+
+.main-right h1 {
+    width: 270px;
+   
+}
+
+.main-right p {
+    width: 270px;
+   
+}
+.main-right h2 {
+    width: 270px;
+   
+}
+
+#name {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+
+}
+.main-right {
+    margin-right: 20px;
+}
+.country-parent{
+    flex-direction: column;
+}
+}
